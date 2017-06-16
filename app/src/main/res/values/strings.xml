@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Minimal</string>
+    <string name="remind_date_and_time">Reminder set for %1$s, %2$s %3$s</string>
+    <string name="choose_time">Time</string>
+    <string name="choose_date">Date</string>
+    <string name="remind_me">Remind Me</string>
+    <string name="title">Title</string>
+    <string name="date_error_check_again">The date you entered is in the past.</string>
+    <string name="date_reminder_default">Today</string>
+    <string name="action_add">Add</string>
+    <string name="title_label">Title</string>
+</resources>

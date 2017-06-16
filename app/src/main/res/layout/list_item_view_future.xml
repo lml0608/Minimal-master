@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools">
+
+
+    <ImageView
+        android:id="@+id/todo_litsitem_image"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_margin="4dp"
+        android:layout_alignParentStart="true" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@id/todo_litsitem_image">
+
+        <TextView
+            android:id="@+id/list_item_todo_title"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="3"
+            android:maxLines="2"
+            android:textColor="@color/secondary_text"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            tools:text="Crime Title"
+            android:padding="4dp"/>
+
+        <TextView
+            android:id="@+id/list_item_todo_time"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2"
+            android:textColor="?attr/colorAccent"
+            android:textSize="12sp"
+            tools:text="Crime Date"
+            android:padding="4dp"/>
+    </LinearLayout>
+
+
+</RelativeLayout>
